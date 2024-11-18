@@ -28,8 +28,7 @@ li a {
     color: white;
   }
   
-li:hover
-/* li:focus-within { */{
+li:hover {
     background: blue;
     cursor: pointer;
   }
