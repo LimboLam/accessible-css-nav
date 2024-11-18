@@ -28,7 +28,8 @@ li a {
     color: white;
   }
   
-li:hover {
+li:hover
+li:focus-within {
     background: blue;
     cursor: pointer;
   }
@@ -47,7 +48,8 @@ ul li ul {
   
 ul li:hover > ul,
 ul:focus-within > ul,
-ul li ul:hover {
+ul li ul:hover,
+ul li ul:focus {
     visibility: visible;
     opacity: 1;
     display: block;
@@ -59,5 +61,5 @@ ul li ul li {
   }
 
 li:focus-within a {
-    outline: turquoise;
+    outline: none;
   }
